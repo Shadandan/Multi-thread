@@ -18,18 +18,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    //创建定时器
-    NSTimer *timer=[NSTimer timerWithTimeInterval:1.0 target:self selector:@selector(demo) userInfo:nil repeats:YES];
-    //把定时器添加到消息循环中
-    //[[NSRunLoop currentRunLoop]addTimer:timer forMode:NSDefaultRunLoopMode];//如果模式设为默认模式，当滚动控件中的内容时，定时器会停止
-    [[NSRunLoop currentRunLoop]addTimer:timer forMode:NSRunLoopCommonModes];//改为NSRunLoopCommonModes时就可以同时执行了
-    //[[NSRunLoop currentRunLoop]addTimer:timer forMode:UITrackingRunLoopMode];//只有在滚动scrollView的时候才打印hello
+    //开启一个子线程
+    NSThread *thread=[[NSThread alloc]initWithTarget:self selector:@selector(demo) object:nil];
+    [thread start];
+    //往子线程消息循环中添加输入源，performSelector也是一种输入源，让指定的方法在指定的线程上执行
+    [self performSelector:@selector(demo1) onThread:thread withObject:nil waitUntilDone:YES];
+    
 }
 
 -(void)demo{
-    NSLog(@"hello%@",[NSRunLoop currentRunLoop].currentMode);//一开始是NSDefaultRunLoopMode模式，当滚动scrollView的时候，消息循环的模式自动改变成UITrackingRunloopMode
+    NSLog(@"I'm running");
+    //开启子线程的消息循环方式1：如果这种方式开启，消息循环一直执行,"end"不输出，若消息循环中没有添加输入事件，消息循环会立即结束输出"end"
+    //[[NSRunLoop currentRunLoop]run];
+    //开启子线程的消息循环方式2:消息循环2秒钟后结束，即两秒钟后输出"end"
+    [[NSRunLoop currentRunLoop]runUntilDate:[NSDate dateWithTimeIntervalSinceNow:2]];
+    
+        NSLog(@"end");
 }
-
+-(void)demo1{
+    NSLog(@"I'm running on runloop");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
