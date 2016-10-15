@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  04-消息循环
+//  05-子线程的消息循环
 //
 //  Created by shadandan on 2016/10/15.
 //  Copyright © 2016年 SDD. All rights reserved.
@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -28,6 +29,8 @@
 -(void)demo{
     NSLog(@"hello%@",[NSRunLoop currentRunLoop].currentMode);//一开始是NSDefaultRunLoopMode模式，当滚动scrollView的时候，消息循环的模式自动改变成UITrackingRunloopMode
 }
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
