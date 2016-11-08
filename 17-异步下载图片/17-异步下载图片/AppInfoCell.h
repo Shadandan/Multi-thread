@@ -11,6 +11,5 @@
 @interface AppInfoCell : UITableViewCell
 @property(nonatomic,strong)AppInfo *appInfo;
 @property (weak, nonatomic) IBOutlet UIImageView *iconView;
-@property (weak, nonatomic) IBOutlet UILabel *name;
-@property (weak, nonatomic) IBOutlet UILabel *download;
+
 @end

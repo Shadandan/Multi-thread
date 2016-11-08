@@ -9,7 +9,8 @@
 #import "AppInfoCell.h"
 #import "AppInfo.h"
 @interface AppInfoCell()
-
+@property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UILabel *download;
 
 @end
 @implementation AppInfoCell
