@@ -16,6 +16,10 @@
 		7E14C7BD1DD1893C00F13FC8 /* _8____OperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E14C7BC1DD1893C00F13FC8 /* _8____OperationTests.m */; };
 		7E14C7C81DD1893C00F13FC8 /* _8____OperationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E14C7C71DD1893C00F13FC8 /* _8____OperationUITests.m */; };
 		7E14C7D71DD1896800F13FC8 /* DownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E14C7D61DD1896800F13FC8 /* DownloaderOperation.m */; };
+		7E29C4501DD3011F0036DFE9 /* NSString+Sandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C44F1DD3011F0036DFE9 /* NSString+Sandbox.m */; };
+		7E29C4531DD303990036DFE9 /* DownloaderOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C4521DD303990036DFE9 /* DownloaderOperationManager.m */; };
+		7E29C4561DD30FAE0036DFE9 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C4551DD30FAE0036DFE9 /* AppInfo.m */; };
+		7E29C4581DD30FCB0036DFE9 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E29C4571DD30FCB0036DFE9 /* apps.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,13 @@
 		7E14C7C91DD1893C00F13FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E14C7D51DD1896800F13FC8 /* DownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloaderOperation.h; sourceTree = "<group>"; };
 		7E14C7D61DD1896800F13FC8 /* DownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloaderOperation.m; sourceTree = "<group>"; };
+		7E29C44E1DD3011F0036DFE9 /* NSString+Sandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sandbox.h"; sourceTree = "<group>"; };
+		7E29C44F1DD3011F0036DFE9 /* NSString+Sandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sandbox.m"; sourceTree = "<group>"; };
+		7E29C4511DD303990036DFE9 /* DownloaderOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloaderOperationManager.h; sourceTree = "<group>"; };
+		7E29C4521DD303990036DFE9 /* DownloaderOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloaderOperationManager.m; sourceTree = "<group>"; };
+		7E29C4541DD30FAE0036DFE9 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
+		7E29C4551DD30FAE0036DFE9 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
+		7E29C4571DD30FCB0036DFE9 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +119,8 @@
 				7E14C7A61DD1893C00F13FC8 /* AppDelegate.m */,
 				7E14C7A81DD1893C00F13FC8 /* ViewController.h */,
 				7E14C7A91DD1893C00F13FC8 /* ViewController.m */,
+				7E29C4541DD30FAE0036DFE9 /* AppInfo.h */,
+				7E29C4551DD30FAE0036DFE9 /* AppInfo.m */,
 				7E14C7AB1DD1893C00F13FC8 /* Main.storyboard */,
 				7E14C7AE1DD1893C00F13FC8 /* Assets.xcassets */,
 				7E14C7B01DD1893C00F13FC8 /* LaunchScreen.storyboard */,
@@ -115,6 +128,10 @@
 				7E14C7A21DD1893C00F13FC8 /* Supporting Files */,
 				7E14C7D51DD1896800F13FC8 /* DownloaderOperation.h */,
 				7E14C7D61DD1896800F13FC8 /* DownloaderOperation.m */,
+				7E29C44E1DD3011F0036DFE9 /* NSString+Sandbox.h */,
+				7E29C44F1DD3011F0036DFE9 /* NSString+Sandbox.m */,
+				7E29C4511DD303990036DFE9 /* DownloaderOperationManager.h */,
+				7E29C4521DD303990036DFE9 /* DownloaderOperationManager.m */,
 			);
 			path = "18-自定义Operation";
 			sourceTree = "<group>";
@@ -122,6 +139,7 @@
 		7E14C7A21DD1893C00F13FC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E29C4571DD30FCB0036DFE9 /* apps.plist */,
 				7E14C7A31DD1893C00F13FC8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -251,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E29C4581DD30FCB0036DFE9 /* apps.plist in Resources */,
 				7E14C7B21DD1893C00F13FC8 /* LaunchScreen.storyboard in Resources */,
 				7E14C7AF1DD1893C00F13FC8 /* Assets.xcassets in Resources */,
 				7E14C7AD1DD1893C00F13FC8 /* Main.storyboard in Resources */,
@@ -279,6 +298,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E14C7D71DD1896800F13FC8 /* DownloaderOperation.m in Sources */,
+				7E29C4501DD3011F0036DFE9 /* NSString+Sandbox.m in Sources */,
+				7E29C4531DD303990036DFE9 /* DownloaderOperationManager.m in Sources */,
+				7E29C4561DD30FAE0036DFE9 /* AppInfo.m in Sources */,
 				7E14C7AA1DD1893C00F13FC8 /* ViewController.m in Sources */,
 				7E14C7A71DD1893C00F13FC8 /* AppDelegate.m in Sources */,
 				7E14C7A41DD1893C00F13FC8 /* main.m in Sources */,
@@ -511,6 +533,7 @@
 				7E14C7CE1DD1893C00F13FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E14C7CF1DD1893C00F13FC8 /* Build configuration list for PBXNativeTarget "18-自定义OperationTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +542,7 @@
 				7E14C7D11DD1893C00F13FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E14C7D21DD1893C00F13FC8 /* Build configuration list for PBXNativeTarget "18-自定义OperationUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +551,7 @@
 				7E14C7D41DD1893C00F13FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

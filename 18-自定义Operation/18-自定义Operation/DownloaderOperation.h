@@ -10,5 +10,7 @@
 #import <UIKit/UIKit.h>
 @interface DownloaderOperation : NSOperation
 @property(nonatomic,copy)NSString *url;
+//执行完成后，回调的block
 @property(nonatomic,copy)void (^finishedBlock)(UIImage *img);//自定义block
++(instancetype)downloaderOperationWithURLString:(NSString *)urlString finishedBlock:(void (^)(UIImage *))finishedBlock;
 @end
