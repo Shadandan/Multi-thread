@@ -20,6 +20,7 @@
 		7E29C4531DD303990036DFE9 /* DownloaderOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C4521DD303990036DFE9 /* DownloaderOperationManager.m */; };
 		7E29C4561DD30FAE0036DFE9 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C4551DD30FAE0036DFE9 /* AppInfo.m */; };
 		7E29C4581DD30FCB0036DFE9 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E29C4571DD30FCB0036DFE9 /* apps.plist */; };
+		7E4D2EF31DD454F400701F24 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D2EF21DD454F400701F24 /* UIImageView+WebCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		7E29C4541DD30FAE0036DFE9 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
 		7E29C4551DD30FAE0036DFE9 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
 		7E29C4571DD30FCB0036DFE9 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		7E4D2EF11DD454F400701F24 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		7E4D2EF21DD454F400701F24 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				7E29C44F1DD3011F0036DFE9 /* NSString+Sandbox.m */,
 				7E29C4511DD303990036DFE9 /* DownloaderOperationManager.h */,
 				7E29C4521DD303990036DFE9 /* DownloaderOperationManager.m */,
+				7E4D2EF11DD454F400701F24 /* UIImageView+WebCache.h */,
+				7E4D2EF21DD454F400701F24 /* UIImageView+WebCache.m */,
 			);
 			path = "18-自定义Operation";
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 			files = (
 				7E14C7D71DD1896800F13FC8 /* DownloaderOperation.m in Sources */,
 				7E29C4501DD3011F0036DFE9 /* NSString+Sandbox.m in Sources */,
+				7E4D2EF31DD454F400701F24 /* UIImageView+WebCache.m in Sources */,
 				7E29C4531DD303990036DFE9 /* DownloaderOperationManager.m in Sources */,
 				7E29C4561DD30FAE0036DFE9 /* AppInfo.m in Sources */,
 				7E14C7AA1DD1893C00F13FC8 /* ViewController.m in Sources */,
