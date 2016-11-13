@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5B16641DD8203600EF7C60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B16631DD8203600EF7C60 /* main.m */; };
+		7E5B16671DD8203600EF7C60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B16661DD8203600EF7C60 /* AppDelegate.m */; };
+		7E5B166A1DD8203600EF7C60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B16691DD8203600EF7C60 /* ViewController.m */; };
+		7E5B166D1DD8203600EF7C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B166B1DD8203600EF7C60 /* Main.storyboard */; };
+		7E5B166F1DD8203600EF7C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B166E1DD8203600EF7C60 /* Assets.xcassets */; };
+		7E5B16721DD8203600EF7C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B16701DD8203600EF7C60 /* LaunchScreen.storyboard */; };
+		7E5B167D1DD8203600EF7C60 /* _1_NSCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B167C1DD8203600EF7C60 /* _1_NSCacheTests.m */; };
+		7E5B16881DD8203600EF7C60 /* _1_NSCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B16871DD8203600EF7C60 /* _1_NSCacheUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E5B16791DD8203600EF7C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E5B16571DD8203600EF7C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E5B165E1DD8203600EF7C60;
+			remoteInfo = "21-NSCache";
+		};
+		7E5B16841DD8203600EF7C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E5B16571DD8203600EF7C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E5B165E1DD8203600EF7C60;
+			remoteInfo = "21-NSCache";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E5B165F1DD8203600EF7C60 /* 21-NSCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "21-NSCache.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5B16631DD8203600EF7C60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E5B16651DD8203600EF7C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E5B16661DD8203600EF7C60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E5B16681DD8203600EF7C60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E5B16691DD8203600EF7C60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E5B166C1DD8203600EF7C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E5B166E1DD8203600EF7C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E5B16711DD8203600EF7C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E5B16731DD8203600EF7C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5B16781DD8203600EF7C60 /* 21-NSCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "21-NSCacheTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5B167C1DD8203600EF7C60 /* _1_NSCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_NSCacheTests.m; sourceTree = "<group>"; };
+		7E5B167E1DD8203600EF7C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5B16831DD8203600EF7C60 /* 21-NSCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "21-NSCacheUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5B16871DD8203600EF7C60 /* _1_NSCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_NSCacheUITests.m; sourceTree = "<group>"; };
+		7E5B16891DD8203600EF7C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E5B165C1DD8203600EF7C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5B16751DD8203600EF7C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5B16801DD8203600EF7C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E5B16561DD8203600EF7C60 = {
+			isa = PBXGroup;
+			children = (
+				7E5B16611DD8203600EF7C60 /* 21-NSCache */,
+				7E5B167B1DD8203600EF7C60 /* 21-NSCacheTests */,
+				7E5B16861DD8203600EF7C60 /* 21-NSCacheUITests */,
+				7E5B16601DD8203600EF7C60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E5B16601DD8203600EF7C60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B165F1DD8203600EF7C60 /* 21-NSCache.app */,
+				7E5B16781DD8203600EF7C60 /* 21-NSCacheTests.xctest */,
+				7E5B16831DD8203600EF7C60 /* 21-NSCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E5B16611DD8203600EF7C60 /* 21-NSCache */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B16651DD8203600EF7C60 /* AppDelegate.h */,
+				7E5B16661DD8203600EF7C60 /* AppDelegate.m */,
+				7E5B16681DD8203600EF7C60 /* ViewController.h */,
+				7E5B16691DD8203600EF7C60 /* ViewController.m */,
+				7E5B166B1DD8203600EF7C60 /* Main.storyboard */,
+				7E5B166E1DD8203600EF7C60 /* Assets.xcassets */,
+				7E5B16701DD8203600EF7C60 /* LaunchScreen.storyboard */,
+				7E5B16731DD8203600EF7C60 /* Info.plist */,
+				7E5B16621DD8203600EF7C60 /* Supporting Files */,
+			);
+			path = "21-NSCache";
+			sourceTree = "<group>";
+		};
+		7E5B16621DD8203600EF7C60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B16631DD8203600EF7C60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E5B167B1DD8203600EF7C60 /* 21-NSCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B167C1DD8203600EF7C60 /* _1_NSCacheTests.m */,
+				7E5B167E1DD8203600EF7C60 /* Info.plist */,
+			);
+			path = "21-NSCacheTests";
+			sourceTree = "<group>";
+		};
+		7E5B16861DD8203600EF7C60 /* 21-NSCacheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B16871DD8203600EF7C60 /* _1_NSCacheUITests.m */,
+				7E5B16891DD8203600EF7C60 /* Info.plist */,
+			);
+			path = "21-NSCacheUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E5B165E1DD8203600EF7C60 /* 21-NSCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5B168C1DD8203600EF7C60 /* Build configuration list for PBXNativeTarget "21-NSCache" */;
+			buildPhases = (
+				7E5B165B1DD8203600EF7C60 /* Sources */,
+				7E5B165C1DD8203600EF7C60 /* Frameworks */,
+				7E5B165D1DD8203600EF7C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "21-NSCache";
+			productName = "21-NSCache";
+			productReference = 7E5B165F1DD8203600EF7C60 /* 21-NSCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E5B16771DD8203600EF7C60 /* 21-NSCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5B168F1DD8203600EF7C60 /* Build configuration list for PBXNativeTarget "21-NSCacheTests" */;
+			buildPhases = (
+				7E5B16741DD8203600EF7C60 /* Sources */,
+				7E5B16751DD8203600EF7C60 /* Frameworks */,
+				7E5B16761DD8203600EF7C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5B167A1DD8203600EF7C60 /* PBXTargetDependency */,
+			);
+			name = "21-NSCacheTests";
+			productName = "21-NSCacheTests";
+			productReference = 7E5B16781DD8203600EF7C60 /* 21-NSCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E5B16821DD8203600EF7C60 /* 21-NSCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5B16921DD8203600EF7C60 /* Build configuration list for PBXNativeTarget "21-NSCacheUITests" */;
+			buildPhases = (
+				7E5B167F1DD8203600EF7C60 /* Sources */,
+				7E5B16801DD8203600EF7C60 /* Frameworks */,
+				7E5B16811DD8203600EF7C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5B16851DD8203600EF7C60 /* PBXTargetDependency */,
+			);
+			name = "21-NSCacheUITests";
+			productName = "21-NSCacheUITests";
+			productReference = 7E5B16831DD8203600EF7C60 /* 21-NSCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E5B16571DD8203600EF7C60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SDD;
+				TargetAttributes = {
+					7E5B165E1DD8203600EF7C60 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					7E5B16771DD8203600EF7C60 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E5B165E1DD8203600EF7C60;
+					};
+					7E5B16821DD8203600EF7C60 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E5B165E1DD8203600EF7C60;
+					};
+				};
+			};
+			buildConfigurationList = 7E5B165A1DD8203600EF7C60 /* Build configuration list for PBXProject "21-NSCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E5B16561DD8203600EF7C60;
+			productRefGroup = 7E5B16601DD8203600EF7C60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E5B165E1DD8203600EF7C60 /* 21-NSCache */,
+				7E5B16771DD8203600EF7C60 /* 21-NSCacheTests */,
+				7E5B16821DD8203600EF7C60 /* 21-NSCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E5B165D1DD8203600EF7C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5B16721DD8203600EF7C60 /* LaunchScreen.storyboard in Resources */,
+				7E5B166F1DD8203600EF7C60 /* Assets.xcassets in Resources */,
+				7E5B166D1DD8203600EF7C60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5B16761DD8203600EF7C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5B16811DD8203600EF7C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E5B165B1DD8203600EF7C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5B166A1DD8203600EF7C60 /* ViewController.m in Sources */,
+				7E5B16671DD8203600EF7C60 /* AppDelegate.m in Sources */,
+				7E5B16641DD8203600EF7C60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5B16741DD8203600EF7C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5B167D1DD8203600EF7C60 /* _1_NSCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5B167F1DD8203600EF7C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5B16881DD8203600EF7C60 /* _1_NSCacheUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E5B167A1DD8203600EF7C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E5B165E1DD8203600EF7C60 /* 21-NSCache */;
+			targetProxy = 7E5B16791DD8203600EF7C60 /* PBXContainerItemProxy */;
+		};
+		7E5B16851DD8203600EF7C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E5B165E1DD8203600EF7C60 /* 21-NSCache */;
+			targetProxy = 7E5B16841DD8203600EF7C60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E5B166B1DD8203600EF7C60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E5B166C1DD8203600EF7C60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E5B16701DD8203600EF7C60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E5B16711DD8203600EF7C60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E5B168A1DD8203600EF7C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E5B168B1DD8203600EF7C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E5B168D1DD8203600EF7C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "21-NSCache/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-1-NSCache";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E5B168E1DD8203600EF7C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "21-NSCache/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-1-NSCache";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E5B16901DD8203600EF7C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "21-NSCacheTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-1-NSCacheTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/21-NSCache.app/21-NSCache";
+			};
+			name = Debug;
+		};
+		7E5B16911DD8203600EF7C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "21-NSCacheTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-1-NSCacheTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/21-NSCache.app/21-NSCache";
+			};
+			name = Release;
+		};
+		7E5B16931DD8203600EF7C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "21-NSCacheUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-1-NSCacheUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "21-NSCache";
+			};
+			name = Debug;
+		};
+		7E5B16941DD8203600EF7C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "21-NSCacheUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-1-NSCacheUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "21-NSCache";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E5B165A1DD8203600EF7C60 /* Build configuration list for PBXProject "21-NSCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5B168A1DD8203600EF7C60 /* Debug */,
+				7E5B168B1DD8203600EF7C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5B168C1DD8203600EF7C60 /* Build configuration list for PBXNativeTarget "21-NSCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5B168D1DD8203600EF7C60 /* Debug */,
+				7E5B168E1DD8203600EF7C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E5B168F1DD8203600EF7C60 /* Build configuration list for PBXNativeTarget "21-NSCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5B16901DD8203600EF7C60 /* Debug */,
+				7E5B16911DD8203600EF7C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E5B16921DD8203600EF7C60 /* Build configuration list for PBXNativeTarget "21-NSCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5B16931DD8203600EF7C60 /* Debug */,
+				7E5B16941DD8203600EF7C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E5B16571DD8203600EF7C60 /* Project object */;
+}
